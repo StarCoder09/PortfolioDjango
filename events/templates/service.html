@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<br/><br/><br/>
+<!-- service section starts-->
+<section class="services" id="services">
+    <h1 class="heading"> <span>My</span> Services </h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="number">1</span>
+            <img src="{% static 'img/python.png' %}" alt="img">
+            <h3>Python Programming</h3>
+        </div>
+        <div class="box">
+            <span class="number">2</span>
+            <img src="{% static 'img/graphics.png' %}" alt="img">
+            <h3>Graphic Design</h3>
+        </div>
+        <div class="box">
+            <span class="number">3</span>
+            <img src="{% static 'img/linux.png' %}" alt="img">
+            <h3>Linux</h3>
+        </div>
+        <div class="box">
+            <span class="number">4</span>
+            <img src="{% static 'img/software2.png' %}" alt="img">
+            <h3>Software Development</h3>
+        </div>
+        <div class="box">
+            <span class="number">5</span>
+            <img src="{% static 'img/web.png' %}" alt="img">
+            <h3>Web Development</h3>
+        </div>
+        <div class="box">
+            <span class="number">6</span>
+            <img src="{% static 'img/game.png' %}" alt="img">
+            <h3>Game Development</h3>
+        </div>
+        <div class="box">
+            <span class="number">7</span>
+            <img src="{% static 'img/affiliate.png' %}" alt="img">
+            <h3>Affiliate Marketting</h3>
+        </div>
+        <div class="box">
+            <span class="number">8</span>
+            <img src="{% static 'img/game_d2.png' %}" alt="img">
+            <h3>Game Designing</h3>
+        </div>
+        <div class="box">
+            <span class="number">9</span>
+            <img src="{% static 'img/program.png' %}" alt="img">
+            <h3>Programming</h3>
+        </div>
+    </div>
+</section>
+<!-- service section ends-->
+<br/><br/><br/>
+
+{% endblock %}

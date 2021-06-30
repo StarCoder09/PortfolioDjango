@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<br/><br/><br/>
+<!-- home section starts-->
+<section class="home" id="home">
+    <div class="image">
+        <img src="{% static 'img/me.jpg' %}" alt="Harshman Chatterjee">
+    </div>
+    <div class="content">
+        <span class="hello">Hello</span>
+        <h3> I'M <span>HARSHMAN CHATTERJEE</span> </h3>
+        <p>A Computer Science Student at SN College of Computer Science, An average Programmer.</p>
+        <a href="{% url 'about' %}" class="btn">About me</a>
+    </div>
+</section>
+<!-- home section ends-->
+<br/><br/><br/>
+      
+{% endblock %}
